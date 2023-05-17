@@ -1,0 +1,24 @@
+.item{
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.item-caption{
+    position: absolute;
+    width: 80%;
+    top: 100%;
+    left: 10%;
+    
+    transition:top 0.7s ;
+
+}
+.item:hover .item-caption{
+    top: 65%;
+
+}
+.lightboxitem{
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 65%;
+}
